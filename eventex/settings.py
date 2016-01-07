@@ -43,7 +43,7 @@ INSTALLED_APPS = (
     'test_without_migrations',
     'django_extensions',
     'eventex.core',
-    'eventex.subscriptions',
+    'eventex.subscriptions.apps.SubscriptionsConfig',
     
 )
 
@@ -93,7 +93,7 @@ DATABASES = {
 
 LANGUAGE_CODE = 'pt-br'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Sao_Paulo'
 
 USE_I18N = True
 
